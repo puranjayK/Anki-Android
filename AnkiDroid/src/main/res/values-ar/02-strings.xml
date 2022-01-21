@@ -174,7 +174,7 @@
     <string name="import_log_failed_unzip">فشل فك ضغط ملف apkg: %s</string>
     <string name="import_log_failed_copy_to">فشل نسخ ملف apkg إلى %s</string>
     <string name="import_log_failed_validate">فشل التحقق من صحة ملف apkg</string>
-    <string name="import_log_insufficient_space_error">There is not enough space to import the package.\nNeeded - %1$s \nAvailable - %2$s.\n\nHaving Trouble? Try to free space on your phone if possible. Alternatively, sync uses less space than import. You may try importing the package with a device with more space (for example Anki Desktop) and then sync it to this device.</string>
+    <string name="import_log_insufficient_space_error">لا توجد مساحة كافية لاستيراد الحزمة.\nالمتطلب - %1$s \nالمتوفر - %2$s.\n\nهل تواجه مشكلة؟ جرب تفريغ مساحة في هاتفك إن أمكن. كحل بديل، تستخدم المزامنة مساحة أقل من الاستيراد، لذلك يمكنك تجربة استيراد الحزمة في جهاز فيه مساحة أكثر (على نسخة أنكي للكمبيوتر مثلًا) ثم المزامنة لهذا الجهاز.</string>
     <string name="import_log_file_cache_cleared">حدث خطأ عند استيراد الملف. يحتمل أن يكون بسبب مسح ذاكرة الكاش عند المعالجة.\nحاول مجددًا</string>
     <string name="import_succeeded_but_check_database">نجح استيراد البيانات لكن فشل تنظيف ما بعد الاستيراد. استخدم ميزة فحص قاعدة البيانات لاحقًا. السبب: %s</string>
     <string name="import_error_unhandled_request">تعذرت معالجة طلب الاستيراد</string>
@@ -308,6 +308,9 @@
     <string name="choose_an_image">اختيار صورة</string>
     <!-- Card Template Browser Appearance -->
     <string name="restore_default">استعادة الافتراضي</string>
+    <string name="cloze_sample_text">This is a {{%1$s::sample}} cloze deletion.</string>
+    <string name="basic_answer_sample_text_user" comment="has a typo, so that user sees a highlighted difference in basic answer model     ">exomple</string>
+    <string name="basic_answer_sample_text">an example</string>
     <string name="reviewer_tts_cloze_spoken_replacement">فارغ</string>
     <!-- in options menu & Navigation Drawer -->
     <string name="ankidroid_turn_on_fullscreen_nav_drawer">الرجاء تفعيل وضع ملء الشاشة لاستخدام ميزة إظهار قائمة التنقل باستخدام جافا سكريبت.</string>
@@ -427,4 +430,15 @@
     <string name="suspended_note">ملحوظة معلقة</string>
     <!--  Note Editor Toggle Sticky  -->
     <string name="note_editor_toggle_sticky">تفعيل ثبات النص لـ %s</string>
+    <!-- Scoped Storage Migration -->
+    <string name="scoped_storage_title">نقل التخزين</string>
+    <string name="scoped_storage_initial_message">يجب أن ينقل أنكيدرويد بياناته لكي يمتثل لقوانين خصوصية جديدة في أندرويد\n\nإذا حذفت أنكيدرويد قبل النقل، فستفقد بياناتك\n\nيرجى إجراء النقل بأسرع وقت ممكن</string>
+    <string name="scoped_storage_terms_message">سيجري النقل في الخلفية. لن تكون قادرًا على المزامنة أثناء النقل\n\nالمدة المقدرة: %s</string>
+    <string name="scoped_storage_term_1">أخذت نسخة احتياطية لبياناتي</string>
+    <string name="scoped_storage_term_1_ankiweb">أجريت مزامنة مع أنكي ويب مؤخرًا</string>
+    <string name="scoped_storage_term_2">لن أحذف التطبيق بينما يتم نقل البيانات</string>
+    <string name="scoped_storage_select_all_terms">يرجى قبول كل الشروط قبل الاستكمال</string>
+    <string name="scoped_storage_learn_more">تعلم المزيد</string>
+    <string name="scoped_storage_postpone">تأجيل</string>
+    <string name="scoped_storage_migrate">نقل</string>
 </resources>

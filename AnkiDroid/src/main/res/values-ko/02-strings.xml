@@ -259,6 +259,9 @@
     <string name="choose_an_image">이미지 선택</string>
     <!-- Card Template Browser Appearance -->
     <string name="restore_default">기본값 복원</string>
+    <string name="cloze_sample_text">This is a {{%1$s::sample}} cloze deletion.</string>
+    <string name="basic_answer_sample_text_user" comment="has a typo, so that user sees a highlighted difference in basic answer model     ">exomple</string>
+    <string name="basic_answer_sample_text">an example</string>
     <string name="reviewer_tts_cloze_spoken_replacement">공백</string>
     <!-- in options menu & Navigation Drawer -->
     <string name="ankidroid_turn_on_fullscreen_nav_drawer">JavaScript를 이용하여 탐색창 서랍을 이용하려면 전체 화면을 켜주십시오.</string>
@@ -339,11 +342,11 @@
     <string name="back_pressed_once_reviewer">Press back again to return</string>
     <!-- %% is required to display % symbol. Reference: https://stackoverflow.com/a/16834358 -->
     <string name="percentage">%s%%</string>
-    <string name="download_deck">Download deck</string>
-    <string name="try_again">Try Again</string>
-    <string name="cancel_download">Cancel download</string>
-    <string name="cancel_download_question_title">Cancel download?</string>
-    <string name="downloading_file">Downloading %s</string>
+    <string name="download_deck">덱 다운로드</string>
+    <string name="try_again">다시 시도하세요.</string>
+    <string name="cancel_download">다운로드 취소</string>
+    <string name="cancel_download_question_title">다운로드를 취소하시겠습니까?</string>
+    <string name="downloading_file">다운로드 중 %s</string>
     <string name="import_deck">Import Deck</string>
     <string name="something_wrong">Something went wrong, please try again</string>
     <string name="download_failed">Download failed</string>
@@ -358,9 +361,22 @@
     <!-- Reviewer actions -->
     <string name="buried_card">Buried card</string>
     <string name="buried_note">Buried note</string>
-    <string name="deleted_note">Deleted note</string>
+    <string name="deleted_note">노트가 삭제되었습니다</string>
     <string name="suspended_card">Suspended card</string>
     <string name="suspended_note">Suspended note</string>
     <!--  Note Editor Toggle Sticky  -->
     <string name="note_editor_toggle_sticky">Make field %s sticky</string>
+    <!-- Scoped Storage Migration -->
+    <string name="scoped_storage_title">Storage migration</string>
+    <string name="scoped_storage_initial_message">AnkiDroid must move its data to meet new Android privacy rules
+\n\nIf you uninstall AnkiDroid before the migration, your data will be lost
+\n\nPlease perform the migration as soon as possible</string>
+    <string name="scoped_storage_terms_message">Migration will occur in the background. You will be unable to sync while migrating\n\nEstimated duration: %s</string>
+    <string name="scoped_storage_term_1">I have backed up my data</string>
+    <string name="scoped_storage_term_1_ankiweb">I have synced with AnkiWeb recently</string>
+    <string name="scoped_storage_term_2">I will not uninstall the app while data is being moved</string>
+    <string name="scoped_storage_select_all_terms">Please accept all items to continue</string>
+    <string name="scoped_storage_learn_more">Learn More</string>
+    <string name="scoped_storage_postpone">Postpone</string>
+    <string name="scoped_storage_migrate">Migrate</string>
 </resources>

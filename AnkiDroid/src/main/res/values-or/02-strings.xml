@@ -162,7 +162,7 @@
     <string name="import_log_failed_unzip">apkg: %s କୁ unzip କରିବାରେ ବିଫଳ</string>
     <string name="import_log_failed_copy_to">%s କୁ apkg ନକଲ କରିବାରେ ବିଫଳ</string>
     <string name="import_log_failed_validate">ଏ.ପି.କେ.ଜି ର ବିଫଳ ବୈଧତା</string>
-    <string name="import_log_insufficient_space_error">There is not enough space to import the package.\nNeeded - %1$s \nAvailable - %2$s.\n\nHaving Trouble? Try to free space on your phone if possible. Alternatively, sync uses less space than import. You may try importing the package with a device with more space (for example Anki Desktop) and then sync it to this device.</string>
+    <string name="import_log_insufficient_space_error">ପ୍ୟାକେଜ୍ ଆମଦାନୀ କରିବାକୁ ପର୍ଯ୍ୟାପ୍ତ ସ୍ଥାନ ନାହିଁ।\nଆବଶ୍ୟକ - %1$s \nଉପଲବ୍ଧ - %2$s.\n\nଅସୁବିଧା ହେଉଛି କି? ଯଦି ସମ୍ଭବ ଆପଣଙ୍କ ଫୋନରେ ସ୍ପେସ୍ ମୁକ୍ତ କରିବାକୁ ଚେଷ୍ଟା କରନ୍ତୁ। ବୈକଳ୍ପିକ ଭାବରେ, ସିଙ୍କ୍ ଆମଦାନୀ ଅପେକ୍ଷା କମ୍ ସ୍ଥାନ ବ୍ୟବହାର କରେ। ଆପଣ ଅଧିକ ସ୍ପେସ୍ ଥିବା ଏକ ଡିଭାଇସ୍ (ଉଦାହରଣ ସ୍ୱରୂପ Anki Desktop) ସହ ପ୍ୟାକେଜ୍ ଆମଦାନୀ କରିବାକୁ ଚେଷ୍ଟା କରିପାରନ୍ତି ଏବଂ ତାପରେ ଏହାକୁ ଏହି ଡିଭାଇସରେ ସିଙ୍କ୍ କରିପାରିବେ।</string>
     <string name="import_log_file_cache_cleared">ଫାଇଲ୍ ଆମଦାନି କରିବାରେ ତ୍ରୁଟି, ପ୍ରକ୍ରିୟାକରଣ ସମୟରେ ସମ୍ଭବତଃ ଏକ କ୍ୟାଚ୍ ଖାଲି ହେଇଥାଇପାରେ।\nଦୟାକରି ପୁନଃଚେଷ୍ଟା କରନ୍ତୁ</string>
     <string name="import_succeeded_but_check_database">ଡାଟା ଆମଦାନୀ ସଫଳ ହେଲା କିନ୍ତୁ ଆମଦାନୀ ପରବର୍ତ୍ତୀ ସଫେଇ ବିଫଳ ହେଲା। ପରେ ଡାଟାବେସ୍ ଯାଞ୍ଚ ଚଲାନ୍ତୁ। ମୂଳ କାରଣ: %s</string>
     <string name="import_error_unhandled_request">ଆମଦାନୀ ଅନୁରୋଧ ପ୍ରକ୍ରିୟାକରଣ କରିବାରେ ଅସମର୍ଥ</string>
@@ -268,6 +268,9 @@
     <string name="choose_an_image">ଛବି ବାଛନ୍ତୁ</string>
     <!-- Card Template Browser Appearance -->
     <string name="restore_default">ଡିଫଲ୍ଟ ପୁନଃସ୍ଥାପନ କରନ୍ତୁ</string>
+    <string name="cloze_sample_text">This is a {{%1$s::sample}} cloze deletion.</string>
+    <string name="basic_answer_sample_text_user" comment="has a typo, so that user sees a highlighted difference in basic answer model     ">exomple</string>
+    <string name="basic_answer_sample_text">an example</string>
     <string name="reviewer_tts_cloze_spoken_replacement">ଖାଲି</string>
     <!-- in options menu & Navigation Drawer -->
     <string name="ankidroid_turn_on_fullscreen_nav_drawer">ଜାଭାସ୍କ୍ରିପ୍ଟ ବ୍ୟବହାର କରି ଶୋ ନେଭିଗେସନ୍ ଡ୍ରୟର ବ୍ୟବହାର କରିବାକୁ ଦୟାକରି ପୂର୍ଣ ସ୍କ୍ରିନ୍ ଚାଲୁ କରନ୍ତୁ।</string>
@@ -375,4 +378,17 @@
     <string name="suspended_note">ନୋଟ୍ ନିଲମ୍ବିତ କରାଗଲା</string>
     <!--  Note Editor Toggle Sticky  -->
     <string name="note_editor_toggle_sticky">%s କ୍ଷେତ୍ରଟିକୁ sticky କରନ୍ତୁ</string>
+    <!-- Scoped Storage Migration -->
+    <string name="scoped_storage_title">Storage migration</string>
+    <string name="scoped_storage_initial_message">AnkiDroid must move its data to meet new Android privacy rules
+\n\nIf you uninstall AnkiDroid before the migration, your data will be lost
+\n\nPlease perform the migration as soon as possible</string>
+    <string name="scoped_storage_terms_message">Migration will occur in the background. You will be unable to sync while migrating\n\nEstimated duration: %s</string>
+    <string name="scoped_storage_term_1">I have backed up my data</string>
+    <string name="scoped_storage_term_1_ankiweb">I have synced with AnkiWeb recently</string>
+    <string name="scoped_storage_term_2">I will not uninstall the app while data is being moved</string>
+    <string name="scoped_storage_select_all_terms">ଜାରି ରଖିବାକୁ ଦୟାକରି ସମସ୍ତ ଆଇଟମ୍ ଗ୍ରହଣ କରନ୍ତୁ</string>
+    <string name="scoped_storage_learn_more">ଅଧିକ ଜାଣନ୍ତୁ</string>
+    <string name="scoped_storage_postpone">Postpone</string>
+    <string name="scoped_storage_migrate">Migrate</string>
 </resources>
